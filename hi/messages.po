@@ -133,6 +133,11 @@ msgstr ""
 msgid "{0, plural, one {Unlock # skin} other {Unlock # skins}}"
 msgstr ""
 
+#. placeholder {0}: giveaway.winnersQuantity ?? 0
+#: src/components/_other/events/EventGiveaway.tsx:71
+msgid "{0, plural, one {x # winner} other {x # winners}}"
+msgstr ""
+
 #. placeholder {0}: damagesPercent(effects.bunkerBonusDelta)
 #. placeholder {1}: upgradeName(EUpgrade.BUNKER)
 #: src/components/_political/govType/govType.frontConfig.tsx:255
@@ -6155,6 +6160,10 @@ msgstr "प्रासंगिक सीमाएँ"
 msgid "Continue"
 msgstr "जारी रखना"
 
+#: src/components/_user/auth/ConnectFromModal.tsx:428
+msgid "Continue with Apple"
+msgstr ""
+
 #: src/components/_layout/layoutInfos.frontConfig.tsx:50
 #: src/components/_military/battle/BattleDamageBonuses.tsx:180
 #: src/components/_military/mercenaryContract/MercenaryContractTopInfoCard.tsx:88
@@ -7736,6 +7745,10 @@ msgstr "लेख आईडी दर्ज करें"
 msgid "Enter the code we sent to your email."
 msgstr "आपके ईमेल पर भेजा गया कोड दर्ज करें।"
 
+#: src/components/_other/events/EventGiveaway.tsx:95
+msgid "Entered"
+msgstr ""
+
 #: src/components/_user/auth/CitizenIdCard.tsx:58
 msgid "Entry · Admitted"
 msgstr "प्रवेश · स्वीकृत"
@@ -8067,6 +8080,16 @@ msgstr "कॉपी करने में विफल"
 #: src/pages/user/[userId]/referrals.tsx:90
 msgid "Failed to copy text: "
 msgstr "पाठ कॉपी करने में विफल: "
+
+#: src/components/_user/auth/ConnectFromModal.tsx:215
+#: src/components/_user/auth/ConnectFromModal.tsx:234
+#: src/components/_user/auth/ConnectFromModal.tsx:260
+msgid "Failed to start Apple login."
+msgstr ""
+
+#: src/components/_user/auth/ConnectFromModal.tsx:258
+msgid "Failed to start Apple login. Please retry the CAPTCHA."
+msgstr ""
 
 #: src/components/_user/auth/ConnectFromModal.tsx:124
 msgid "Failed to start Discord login."
@@ -8706,6 +8729,14 @@ msgstr "उन्हें दो दिन की छुट्टी दे द
 #: src/components/_user/apiToken/ApiTokenList.tsx:251
 msgid "Give your token a descriptive name so you can identify it later."
 msgstr "अपने टोकन को एक वर्णनात्मक नाम दें ताकि आप बाद में उसे पहचान सकें।"
+
+#: src/components/_other/events/EventGiveaway.tsx:61
+msgid "Giveaway"
+msgstr ""
+
+#: src/components/_other/events/EventGiveaway.tsx:34
+msgid "Giveaway entered"
+msgstr ""
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:199
 msgid "Giveaway Winner"
@@ -9781,6 +9812,10 @@ msgstr "किसी सैन्य इकाई में शामिल ह�
 msgid "Join a military unit to take part"
 msgstr "भाग लेने के लिए मिलिट्री यूनिट में शामिल हों"
 
+#: src/components/_other/events/EventMuLeague.tsx:60
+msgid "Join a Military Unit to take part"
+msgstr "भाग लेने के लिए मिलिट्री यूनिट में शामिल हों"
+
 #: src/components/_user/mission/mission.frontConfig.tsx:680
 msgid "Join a Party"
 msgstr "पार्टी में शामिल हों"
@@ -10090,6 +10125,10 @@ msgstr "लीग"
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:215
 msgid "League Champion"
 msgstr "लीग चैंपियन"
+
+#: src/components/_other/events/EventLeague.tsx:69
+msgid "Leagues are being drawn"
+msgstr ""
 
 #: src/components/_other/shop/skin.frontConfig.tsx:248
 msgid "Leather Sling"
@@ -10592,6 +10631,11 @@ msgstr "बहुमत {majority}"
 #: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:110
 msgid "Make <0/> the new alliance leader. The leader can edit the alliance avatar and color scheme directly."
 msgstr "<0/> को नया गठबंधन लीडर बनाएं। लीडर सीधे गठबंधन के अवतार और रंग योजना में बदलाव कर सकता है।"
+
+#: src/components/_political/law/law.frontConfig.tsx:670
+msgid "Make a military unit of your nationality a State Army"
+msgstr ""
+
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1959
 msgid "Make everyone a Supreme Commander"
@@ -12973,6 +13017,10 @@ msgstr "अर्द्धसैनिक"
 #: src/components/_other/events/EventGiveaway.tsx:82
 msgid "Participants"
 msgstr "प्रतिभागियों"
+
+#: src/components/_other/events/EventGiveaway.tsx:105
+msgid "Participate"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:328
 msgid "Participate in Battle"
@@ -19706,6 +19754,10 @@ msgstr "आपकी MU ने अपनी साप्ताहिक ली�
 #: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:49
 msgid "Your MU has <0/> reputation and cannot bid on mercenary contracts. Pay to buy back reputation (once per day)."
 msgstr "आपकी MU की प्रतिष्ठा <0/> है और वह भाड़े के अनुबंधों पर बोली नहीं लगा सकती। प्रतिष्ठा वापस खरीदने के लिए भुगतान करें (दिन में एक बार)।"
+
+#: src/components/_other/events/EventMuLeague.tsx:75
+msgid "Your MU has no league this week"
+msgstr ""
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:107
 msgid "Your MU is registered"
